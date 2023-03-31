@@ -10,7 +10,17 @@ public class Account {
     private boolean hotelGuest;
     private int accountId;
     private  String password;
-    private String userName;
+    private int paymentId;
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
+
+    private String role;
 
     public String getPassword() {
         return password;
@@ -19,15 +29,6 @@ public class Account {
     public void setPassword(String password) {
         this.password = password;
     }
-
-    public String getUserName() {
-        return userName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
-
     public String getFirstName() {
         return firstName;
     }
@@ -92,9 +93,9 @@ public class Account {
         this.accountId = accountId;
     }
 
-    public  Account(int accountId){
-        this.accountId = accountId;
-    }
+//    public  Account(){
+//        accountId++;
+//    }
     public static void account(){
 
     }

@@ -4,7 +4,7 @@ import com.ressortMolveno.Model.AccountList;
 
 import java.util.Scanner;
 
-public class ChangeAccount {
+public class UpdateAccount {
     public static void changeAccount() {
         for (int i = 0; i < AccountList.jsonArray.length(); i++) {
             System.out.println("Account Id: " + AccountList.jsonArray.getJSONObject(i).getInt("accountId") +
@@ -58,7 +58,7 @@ public class ChangeAccount {
 
                 String newInfo = scanner.nextLine();
                 AccountList.jsonArray.getJSONObject(i).put(part, newInfo);
-                AccountList.write(AccountList.jsonArray);
+                //AccountList.write(AccountList.jsonArray);@toDo
                 System.out.println("Account Id: " + AccountList.jsonArray.getJSONObject(i).getInt("accountId") +
                         ", " + "First Name: " + AccountList.jsonArray.getJSONObject(i).getString("firstName") +
                         ", " + "Last Name: " + AccountList.jsonArray.getJSONObject(i).getString("lastName") +

@@ -1,0 +1,58 @@
+[
+    {
+        "accountId": 1000,
+        "firstName": "ali",
+        "lastName": "veli",
+        "password": "dafaff5%r",
+        "address": "sfewrt",
+        "phoneNumber": "1111111111",
+        "role": "CLIENT",
+        "e_mail": "veli@gmail.com",
+        "hotelGuest": false
+    },
+    {
+        "accountId": 1001,
+        "firstName": "Hasan",
+        "lastName": "Cicek",
+        "password": "312awasd$",
+        "address": "fwrfwefr",
+        "phoneNumber": "5555555555",
+        "roomNumber": "21",
+        "role": "CLIENT",
+        "e_mail": "rwqr@gmail.com",
+        "hotelGuest": true
+    },
+    {
+        "accountId": 1002,
+        "firstName": "Joe",
+        "lastName": "Koe",
+        "password": "123faftew$",
+        "address": "ffwq",
+        "phoneNumber": "3333333333",
+        "role": "CLIENT",
+        "e_mail": "ko2@gmail.com",
+        "hotelGuest": false
+    },
+    {
+        "accountId": 1003,
+        "firstName": "Denis",
+        "lastName": "Dede",
+        "password": "123456789*",
+        "address": "Amsterda",
+        "phoneNumber": "7777777777",
+        "role": "RECEPTIONIST",
+        "e_mail": "dede@gmail.com",
+        "hotelGuest": false
+    },
+    {
+        "accountId": 1004,
+        "firstName": "Mehmet",
+        "lastName": "Turk",
+        "password": "123abc456*",
+        "address": "Parkwijk",
+        "phoneNumber": "1234567890",
+        "role": "CLIENT",
+        "e_mail": "turk@gmail.com",
+        "hotelGuest": false
+    }
+]

@@ -1,36 +1,30 @@
 package com.ressortMolveno.View;
 
+import com.ressortMolveno.Model.AccountList;
+
 import java.util.Scanner;
 
 public class AccountsMenu {
-    public static void execute() {
-        boolean exit = true;
-        while (exit) {
-            System.out.println("\t\t Accounts");
+    public static String create;
+    public static String update;
+    public static String delete;
+    public  static String exit;
+    public static int execute() {
+        String choice = "";
+
+            System.out.println("\t\t Accounts Menu");
             System.out.println("1- Create");
-            System.out.println("2- Change");
-            System.out.println("3- Delete");
+            System.out.println("2- Update");
+            System.out.println("3- View");
+            System.out.println("4- Delete");
             System.out.println("9- Exit");
             System.out.println();
             Scanner scan = new Scanner(System.in);
-            String choice = scan.nextLine();
-            switch (choice.charAt(0)) {
-                case '1':
-                    CreateAccount.createAccount();
-                    break;
-                case '2':
-                    break;
-                case '3':
-                    break;
-                case '4':
-                    break;
-                case '9':
-                    exit = false;
-                    break;
-                default:
-                    System.out.println("Invalid number, please choose a valid number...");
+            choice = scan.nextLine();
 
-            }
-        }
-    }
-    }
+
+
+        return Integer.parseInt(choice.charAt(0)+ "");
+    }}
+
+
