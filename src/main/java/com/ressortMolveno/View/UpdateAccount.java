@@ -70,6 +70,9 @@ public class UpdateAccount {
                         ", " + "Hotel Guest: " + AccountList.jsonArray.getJSONObject(i).getBoolean("hotelGuest"));
             }
         }
+        System.out.println();
+        System.out.println("Account updated successfully!");
+        System.out.println();
 
 
     }

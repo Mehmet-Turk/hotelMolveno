@@ -52,6 +52,7 @@ public class LoginPage {
             System.out.print("password: ");
             String password = scan.nextLine();
                 if (AccountList.jsonArray.getJSONObject(index).getString("password").equals(password)) {
+                    System.out.println();
                     System.out.println("Welcome " +
                             AccountList.jsonArray.getJSONObject(index).getString("firstName"));
                     System.out.println();
@@ -62,5 +63,12 @@ public class LoginPage {
 
             System.out.println("Wrong password. Please try again!");
         }
+    }
+    public static void emailSend(){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("email: ");
+        String email = scan.nextLine();
+
+
     }
 }

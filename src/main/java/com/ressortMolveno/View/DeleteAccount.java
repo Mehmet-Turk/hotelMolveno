@@ -33,5 +33,7 @@ public class DeleteAccount {
         //AccountList.write(AccountList.jsonArray);//toDO
         ViewAccounts.viewAccount();
         System.out.println();
+        System.out.println("Account deleted successfully!");
+        System.out.println();
     }
 }

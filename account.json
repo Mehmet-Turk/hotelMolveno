@@ -54,5 +54,16 @@
         "role": "CLIENT",
         "e_mail": "turk@gmail.com",
         "hotelGuest": false
+    },
+    {
+        "accountId": 1005,
+        "firstName": "Freek",
+        "lastName": "Tillman",
+        "password": "123abc456^",
+        "address": "Utrecht",
+        "phoneNumber": "0678908021",
+        "role": "RECEPTIONIST",
+        "e_mail": "tillman@gmail.com",
+        "hotelGuest": false
     }
 ]

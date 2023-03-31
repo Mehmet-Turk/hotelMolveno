@@ -56,7 +56,11 @@ public class CreateAccount {
         //AccountList.addToJsoNArray(account);//@toDO
         //LoginPage.login();
         //AccountList.write(AccountList.jsonArray);
+        System.out.println();
+        System.out.println("Account created successfully!");
+        System.out.println();
         return account;
+
 
 
     }
